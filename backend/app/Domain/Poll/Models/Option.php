@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-#[Fillable(['poll_id', 'title'])]
+#[Fillable(['poll_id', 'text'])]
 class Option extends Model
 {
     use HasFactory;
